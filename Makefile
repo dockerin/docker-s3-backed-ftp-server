@@ -1,4 +1,4 @@
-docker_tag 	= flaccid/docker-s3-backed-ftp-server
+docker_tag 	= dockerin/docker-s3-backed-ftp-server
 
 UNAME_S         := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)

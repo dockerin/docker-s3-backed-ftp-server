@@ -11,7 +11,7 @@ s3-backed-ftp-server:
   labels:
     io.rancher.scheduler.global: 'true'
   tty: true
-  image: flaccid/s3-backed-ftp-server
+  image: dockerin/s3-backed-ftp-server
   stdin_open: true
   cap_add:
   - MKNOD
