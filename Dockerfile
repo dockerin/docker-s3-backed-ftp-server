@@ -41,6 +41,7 @@ COPY *.sh /
 VOLUME ["/etc/vsftpd", "/srv"]
 
 EXPOSE 21
+EXPOSE 22
 EXPOSE 15393-15592
 
 ENTRYPOINT ["/entry.sh"]
